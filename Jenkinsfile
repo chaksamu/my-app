@@ -8,7 +8,7 @@ pipeline {
     }
     stage ('Compile Package'){
       steps {
-        sh 'mvn package'
+        dat 'mvn package'
       }
     }
   }
