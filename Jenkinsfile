@@ -8,7 +8,7 @@ pipeline {
     }
     stage ('Compile Package'){
       steps {
-        dat 'mvn package'
+        bat 'mvn package'
       }
     }
   }
